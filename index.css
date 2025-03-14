@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  color: white; 
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  cursor: default;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+}
+input {
+  background-color: black;
+  border: solid 3px white;
+  color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+input:hover {
+  border: solid 3px grey;
+  box-shadow: 0 0 30px white;
+}
+input:focus {
+  cursor: text;
+  border: solid 3px rgb(0, 0, 0);
+  box-shadow: 0 0 60px white;
+}
+button {
+  background-color: black;
+  border: solid 3px white;
+  color: white;
+  padding: 10px 10px;
+  transition: 1s;
+  cursor: pointer;
+  border: solid 3px rgb(255, 255, 255);
+}
+button:hover {
+  box-shadow: 0 0 30px white;
+  border: solid 3px grey;
+}
+button:active {
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  color: grey;
+}
